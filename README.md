@@ -1,4 +1,4 @@
-# 🌸 Merly Bloom — Luxury Flower Shop Web App
+# 🌸 Merly Bloom - Luxury Flower Shop Web App
 
 A full-stack flower shop application with an elegant, feminine aesthetic.
 Built with **React**, **Node.js + Express**, and **MongoDB**.
@@ -60,7 +60,7 @@ merly-bloom/
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 Make sure you have these installed on your machine:
 
@@ -73,16 +73,16 @@ Make sure you have these installed on your machine:
 
 ---
 
-## 🚀 Local Setup (Step by Step)
+##  Local Setup (Step by Step)
 
-### Step 1 — Clone the repository
+### Step 1 : Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/merly-bloom.git
 cd merly-bloom
 ```
 
-### Step 2 — Set up the Backend
+### Step 2 : Set up the Backend
 
 ```bash
 # Go into the backend folder
@@ -104,7 +104,7 @@ PORT=5000
 NODE_ENV=development
 ```
 
-### Step 3 — Start MongoDB
+### Step 3 : Start MongoDB
 
 If you installed MongoDB Community locally:
 
@@ -119,7 +119,7 @@ mongod
 sudo systemctl start mongod
 ```
 
-### Step 4 — Seed the database with sample data
+### Step 4 : Seed the database with sample data
 
 ```bash
 # Still inside /backend
@@ -128,14 +128,14 @@ node data/seed.js
 
 You should see:
 ```
-✅ Connected to MongoDB
-🗑️  Cleared existing data
-🌸 Inserted 12 flowers
-📖 Inserted 8 flower meanings
-✅ Database seeded successfully!
+ Connected to MongoDB
+ Cleared existing data
+ Inserted 30 flowers
+ Inserted 8 flower meanings
+ Database seeded successfully!
 ```
 
-### Step 5 — Start the backend server
+### Step 5 : Start the backend server
 
 ```bash
 # Development mode with auto-restart
@@ -152,7 +152,7 @@ Test it:
 curl http://localhost:5000/api/flowers
 ```
 
-### Step 6 — Set up the Frontend
+### Step 6 : Set up the Frontend
 
 Open a **new terminal** window:
 
@@ -171,17 +171,17 @@ Your `.env` should have:
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-### Step 7 — Start the React app
+### Step 7 : Start the React app
 
 ```bash
 npm start
 ```
 
-Frontend opens at: **http://localhost:3000** 🎉
+Frontend opens at: **http://localhost:3000** 
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 All endpoints are prefixed with `/api`.
 
@@ -224,7 +224,7 @@ All endpoints are prefixed with `/api`.
 
 ---
 
-## ☁️ Deploying to Microsoft Azure
+##  Deploying to Microsoft Azure
 
 You'll need:
 - A **Microsoft Azure account** (free tier works): https://azure.microsoft.com/free
@@ -233,7 +233,7 @@ You'll need:
 
 ---
 
-### Part 1 — Set up MongoDB Atlas (Cloud Database)
+### Part 1 : Set up MongoDB Atlas (Cloud Database)
 
 1. Go to https://cloud.mongodb.com and create a free account
 2. Click **"Build a Database"** → choose **Free (M0)** tier
@@ -251,7 +251,7 @@ You'll need:
 
 ---
 
-### Part 2 — Deploy the Backend to Azure App Service
+### Part 2 : Deploy the Backend to Azure App Service
 
 ```bash
 # Step 1: Login to Azure
@@ -311,7 +311,7 @@ curl https://merly-bloom-api.azurewebsites.net/api/flowers
 
 ---
 
-### Part 3 — Deploy the Frontend to Azure Static Web Apps
+### Part 3 - Deploy the Frontend to Azure Static Web Apps
 
 ```bash
 # Step 1: Build the React app with your live API URL
@@ -353,7 +353,7 @@ Set the API URL environment variable in Azure Portal:
 
 ---
 
-### Part 4 — CI/CD with GitHub Actions (Automatic Deployments)
+### Part 4 : CI/CD with GitHub Actions (Automatic Deployments)
 
 After connecting GitHub in Part 3, set these secrets in your GitHub repo:
 
@@ -371,7 +371,7 @@ Now every push to `main` automatically deploys both frontend and backend! 🎉
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -412,7 +412,7 @@ Now every push to `main` automatically deploys both frontend and backend! 🎉
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 | Token | Value | Use |
 |-------|-------|-----|
@@ -427,7 +427,7 @@ Now every push to `main` automatically deploys both frontend and backend! 🎉
 
 ---
 
-## 🌸 Pages Summary
+##  Pages Summary
 
 | Page | Route | Description |
 |------|-------|-------------|
@@ -439,7 +439,7 @@ Now every push to `main` automatically deploys both frontend and backend! 🎉
 
 ---
 
-## 🧩 Adding Your Logo
+##  Adding Your Logo
 
 To add your own logo image:
 
@@ -460,7 +460,7 @@ To add your own logo image:
 
 ---
 
-## 💡 Common Issues & Solutions
+##  Common Issues & Solutions
 
 **Backend won't start:**
 - Make sure MongoDB is running locally (`mongod`)
@@ -482,7 +482,7 @@ To add your own logo image:
 
 ---
 
-## 📝 Environment Variables Summary
+##  Environment Variables Summary
 
 ### Backend (`/backend/.env`)
 ```env
@@ -500,7 +500,7 @@ REACT_APP_API_URL=http://localhost:5000/api
 
 ---
 
-## 🤝 Tech Stack Summary
+##  Tech Stack Summary
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -515,4 +515,4 @@ REACT_APP_API_URL=http://localhost:5000/api
 
 ---
 
-*Built with 🌸 — Merly Bloom*
+*Built with love - Merly Bloom*
