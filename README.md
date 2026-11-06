@@ -1,4 +1,4 @@
-# 🌸 Merly Bloom - Luxury Flower Shop Web App
+#  Merly Bloom - Luxury Flower Shop Web App
 
 A full-stack flower shop application with an elegant, feminine aesthetic.
 Built with **React**, **Node.js + Express**, and **MongoDB**.
@@ -6,7 +6,7 @@ Deployable to **Microsoft Azure** in a few steps.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 merly-bloom/
